@@ -14,7 +14,7 @@ const cors = require("cors")
 //     "optionsSuccessStatus": 204
 //   }
 const corsOptions = {
- origin: process.env.ALLOWED_CLIENTS,
+ origin: "*",
  // ['http://localhost:3000', 'http://localhost:5000', 'http://localhost:3300']
 }
 
